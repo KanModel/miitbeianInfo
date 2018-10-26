@@ -8,7 +8,7 @@ Author: KanModel
 Author URI: https://kanmodel.me
 License: GPL2
 */
-/*  Copyright 2016  KanModel
+/*  Copyright 2018  KanModel
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -45,15 +45,13 @@ add_filter("plugin_action_links_{$plugin}", 'miitbeian_register_plugin_settings_
 //往网站底部添加备案信息
 add_action('wp_footer', 'miitbeian_footer');
 function miitbeian_footer() {
-    if (!wp_is_mobile()) {
-        ?>
-        <div id="miitbeian_info" class="site-footer" align="center">
-            <a href="<?php echo get_option('miitbeian_url'); ?>" rel="nofollow" target="_blank">
-                <?php echo get_option('miitbeian_info'); ?>
-            </a>
-        </div>
-        <?php
-    }
+    ?>
+    <div id="miitbeian_info" class="site-footer" align="center">
+        <a href="<?php echo get_option('miitbeian_url'); ?>" rel="nofollow" target="_blank">
+            <?php echo get_option('miitbeian_info'); ?>
+        </a>
+    </div>
+    <?php
 }
 
 //写入默认配置

@@ -1,10 +1,8 @@
 === Plugin Name ===
 Contributors: KanModel
 Tags: info
-Requires at least: 4.5
-Tested up to: 4.9
-Stable tag: 4.5
-Requires PHP: 5.6
+Requires at least: 3.5
+Tested up to: 4.9.7
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
