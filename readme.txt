@@ -12,13 +12,12 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-此插件课自定义备案内容及备案链接
+此插件可自定义备案内容及备案链接
 
 == Installation ==
 
-1. Upload the plugin files to the `/wp-content/plugins/plugin-name` directory, or install the plugin through the WordPress plugins screen directly.
-1. Activate the plugin through the 'Plugins' screen in WordPress
-1. Use the Settings->Plugin Name screen to configure the plugin
+1. 上传 插件 到 `/wp-content/plugins/` 目录
+2. 在后台插件菜单激活该插件
 
 == Changelog ==
 
